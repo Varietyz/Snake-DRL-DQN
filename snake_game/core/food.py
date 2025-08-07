@@ -1,4 +1,4 @@
-# snake_game/core/food.py
+# core/food.py
 import random
 
 def spawn_food(snake_body, grid_width, grid_height):

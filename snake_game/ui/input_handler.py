@@ -1,4 +1,4 @@
-# snake_game/ui/input_handler.py
+# ui/input_handler.py
 class InputHandler:
     def __init__(self, root, snake, ai_toggle_callback, ai_enabled_getter):
         self.root = root

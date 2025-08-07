@@ -1,4 +1,4 @@
-# snake_game/main.py
+# main.py
 import tkinter as tk
 from config import GRID_WIDTH, GRID_HEIGHT, GRID_SIZE, COLORS
 from ui.controller import GameController

@@ -1,4 +1,4 @@
-# snake_game/ui/renderer.py
+# ui/renderer.py
 from config import GRID_SIZE, COLORS
 
 class Renderer:

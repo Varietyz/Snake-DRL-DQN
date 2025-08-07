@@ -1,3 +1,4 @@
+# ui/controller.py
 from config import (GRID_WIDTH, GRID_HEIGHT, SPEED, SPEED_INCREMENT, MIN_SPEED,
                     BONUS_FOOD_CHANCE, BONUS_FOOD_POINTS, AI_SPEED, AI_ENABLED_BY_DEFAULT)
 from core.snake import Snake

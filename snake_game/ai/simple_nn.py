@@ -1,4 +1,4 @@
-# snake_game/ai/simple_nn.py
+# ai/simple_nn.py
 import numpy as np
 
 # Simple neural network implementation (no external dependencies)

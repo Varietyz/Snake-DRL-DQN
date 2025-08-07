@@ -1,4 +1,4 @@
-# snake_game/core/score.py
+# core/score.py
 import json
 import os
 

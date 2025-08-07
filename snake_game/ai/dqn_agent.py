@@ -1,4 +1,4 @@
-# snake_game/ai/dqn_agent.py
+# ai/dqn_agent.py
 from ai.simple_nn import SimpleNN
 import numpy as np
 import random

@@ -1,4 +1,4 @@
-# snake_game/ui/bonus_manager.py
+# ui/bonus_manager.py
 from config import (GRID_WIDTH, GRID_HEIGHT, BONUS_FOOD_DURATION, BONUS_FOOD_FLICKER_START)
 
 class BonusFoodManager:

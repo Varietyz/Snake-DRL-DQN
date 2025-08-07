@@ -1,4 +1,4 @@
-# snake_game/config.py
+# config.py
 GRID_SIZE = 20
 GRID_WIDTH = 30
 GRID_HEIGHT = 20

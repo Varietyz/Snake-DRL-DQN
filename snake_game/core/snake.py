@@ -1,4 +1,4 @@
-# snake_game/core/snake.py
+# core/snake.py
 from collections import deque
 
 class Snake:

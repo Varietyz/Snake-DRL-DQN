@@ -1,4 +1,4 @@
-# snake_game/ui/ai_controller.py
+# ui/ai_controller.py
 try:
     from ai.dqn_agent import DQNAgent
     AI_AVAILABLE = True
