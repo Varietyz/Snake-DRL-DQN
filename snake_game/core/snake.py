@@ -36,7 +36,6 @@ class Snake:
 
         self.direction = new_dir
 
-
     def hits_self(self):
         body_list = list(self.body)
         if not self.grow_next:
@@ -44,7 +43,10 @@ class Snake:
         has_collision = len(body_list) != len(set(body_list))
         return has_collision
 
-
+    def get_previous_head(self):
+        if len(self.body) < 2:
+            return self.body[-1]
+        return self.body[-2]
 
     def get_head(self):
         return self.body[-1]

@@ -1,4 +1,4 @@
-# 🐍 AI Snake Game
+# 🐍 Snake DRL/DQN
 
 A modern Snake game implementation featuring both human and AI players, built with Python and Tkinter using Deep Q-Learning.
 
@@ -73,6 +73,7 @@ The DQN agent uses:
 
 ## 📂 Project Structure
 ```
+├─ ⚖️ LICENSE
 ├─ 📘 README.md
 ├─ 📄 requirements.txt
 └─ 📂 snake_game
@@ -80,17 +81,17 @@ The DQN agent uses:
     │   ├─ 🐍 dqn_agent.py
     │   ├─ 🐍 simple_nn.py
     │   └─ 🐍 __init__.py
+    ├─ 📂 common
+    │   └─ 🐍 utils.py
     ├─ 🐍 config.py
     ├─ 📂 core
     │   ├─ 🐍 food.py
     │   ├─ 🐍 score.py
     │   └─ 🐍 snake.py
     ├─ 📂 data
-    │   ├─ 🔧 ai_model.json
     │   └─ 🔧 score.json
     ├─ 🐍 main.py
     └─ 📂 ui
-        ├─ 🐍 ai_controller.py
         ├─ 🐍 bonus_manager.py
         ├─ 🐍 controller.py
         ├─ 🐍 input_handler.py
