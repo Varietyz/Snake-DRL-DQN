@@ -36,7 +36,7 @@ class GameController:
         )
 
         self.agent = AgentPlugin(state_size=STATE_SIZE, action_size=ACTION_SIZE)
-
+        self.agent.load()
         self.connector = Connector(self, self.agent)
         
         self.current_speed = SPEED
@@ -56,6 +56,7 @@ class GameController:
         self.current_speed = new_speed
 
     def _end_game(self):
+        self.agent.save()
         self.running = False
         self.bonus_manager.remove_bonus_food()
         self.canvas.delete("all")
