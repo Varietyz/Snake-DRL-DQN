@@ -1,1 +1,1 @@
-{"epsilon": 0.09996751969443773, "train_step_counter": 4814, "hyperparameters": {"state_size": 104, "action_size": 4, "gamma": 0.99, "epsilon_start": 0.09996751969443773, "epsilon_min": 0.1, "epsilon_decay": 0.9995, "batch_size": 64, "target_update_freq": 1000}}
+{"epsilon": 0.09999147136489932, "train_step_counter": 1628950, "hyperparameters": {"state_size": 116, "action_size": 4, "gamma": 0.99, "epsilon_start": 0.09999147136489932, "epsilon_min": 0.1, "epsilon_decay": 0.9999, "batch_size": 64, "target_update_freq": 1000}}
